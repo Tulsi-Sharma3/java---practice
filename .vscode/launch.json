@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "DoubVarOper",
+            "request": "launch",
+            "mainClass": "DoubVarOper",
+            "projectName": "java practice_64a9f394"
+        },
+        {
+            "type": "java",
+            "name": "douVarOper",
+            "request": "launch",
+            "mainClass": "douVarOper",
+            "projectName": "java practice_64a9f394"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
