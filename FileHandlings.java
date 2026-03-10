@@ -1,8 +1,8 @@
 import java.util.*;
-import java.io.IDExeception;
+import java.io.File;
 public class FileHandlings {
     public static void main(String[] args){
-        File myFile = new file("FirstFile.txt");
+        File myFile = new File("FirstFile.txt");
         try{
             myFile.createNewFile();
         }catch (IDException e) {
@@ -12,4 +12,8 @@ public class FileHandlings {
         }
 
     }
+
+    FileWriter fileWriter = new FileWriter("Filename");
+    fileWriter 
+
 }
