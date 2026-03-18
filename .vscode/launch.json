@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SwapXOR",
+            "request": "launch",
+            "mainClass": "SwapXOR",
+            "projectName": "java practice_64a9f394"
+        },
+        {
+            "type": "java",
             "name": "Swap",
             "request": "launch",
             "mainClass": "Swap",
