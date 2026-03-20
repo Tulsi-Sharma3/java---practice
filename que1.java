@@ -1,11 +1,13 @@
 import java.util.*;
 
-public static int fun(int arr[],size){
+public static int fun(int arr[],int size){
     int smallest = Integer.MAX_VALUE;
-    for(int i=0; i<=size; i++){
+    for(int i=0; i<size; i++){
     if(arr[i]<smallest){
         smallest = arr[i];
         }
+    System.out.println(smallest);
+    }
     return smallest;
 }
 public class que1{
@@ -23,10 +25,12 @@ public class que1{
 
         // }
         // System.out.println(smallest);
-        int size = sc.nextInt();
-        int arr[] = new int[size];
-        
-        
-        System.out.println(fun(arr[],10));
+        int n = sc.nextInt();
+        int arr[] = new int[n];
+        for( int i=0; i<5; i++){
+            arr[i]=sc.nextInt();
+        }
+        int res = fun(arr,5);
+        System.out.println("output " + res);
     }
 }
