@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Combination",
+            "request": "launch",
+            "mainClass": "Combination",
+            "projectName": "java practice_64a9f394"
+        },
+        {
+            "type": "java",
+            "name": "Topper_Student",
+            "request": "launch",
+            "mainClass": "OOPs_in_java.Topper_Student",
+            "projectName": "java practice_64a9f394"
+        },
+        {
+            "type": "java",
             "name": "que1",
             "request": "launch",
             "mainClass": "que1",
